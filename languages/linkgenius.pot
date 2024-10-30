@@ -1,0 +1,716 @@
+# Copyright (C) 2024 all-affiliates.com
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: LinkGenius 1.1.6-DEV\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/linkgenius\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-30T08:46:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: linkgenius\n"
+
+#. Plugin Name of the plugin
+msgid "LinkGenius"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://all-affiliates.com/linkgenius/"
+msgstr ""
+
+#. Description of the plugin
+msgid "LinkGenius is a powerful (affiliate) link management plugin. With LinkGenius, you can effortlessly organize, optimize, and track your (affiliate) links, unlocking a new level of efficiency."
+msgstr ""
+
+#. Author of the plugin
+msgid "all-affiliates.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://all-affiliates.com"
+msgstr ""
+
+#: includes/CPT.php:357
+msgid "Link Appearance"
+msgstr ""
+
+#: includes/CPT.php:371
+msgid "Link Disclosure"
+msgstr ""
+
+#: includes/CPT.php:384
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/CPT.php:398
+msgid "Auto Link (Pro)"
+msgstr ""
+
+#: includes/CPT.php:413
+msgid "Link Expiration (Pro)"
+msgstr ""
+
+#: includes/CPT.php:428
+msgid "Geolocation Redirects (Pro)"
+msgstr ""
+
+#: includes/CPT.php:438
+msgid "Intro text Geolocation"
+msgstr ""
+
+#: includes/CPT.php:444
+msgid "Geolocation Rules"
+msgstr ""
+
+#: includes/CPT.php:447
+#: includes/CPT.php:490
+msgid "Redirect {#}"
+msgstr ""
+
+#: includes/CPT.php:448
+#: includes/CPT.php:491
+msgid "Add Another Redirect"
+msgstr ""
+
+#: includes/CPT.php:449
+#: includes/CPT.php:492
+msgid "Remove Redirect"
+msgstr ""
+
+#: includes/CPT.php:455
+msgid "Country Code"
+msgstr ""
+
+#: includes/CPT.php:461
+#: includes/CPT.php:504
+msgid "Target URL"
+msgstr ""
+
+#: includes/CPT.php:471
+msgid "Useragent Rules (Pro)"
+msgstr ""
+
+#: includes/CPT.php:481
+msgid "Intro text useragent"
+msgstr ""
+
+#: includes/CPT.php:487
+msgid "Useragent Redirects"
+msgstr ""
+
+#: includes/CPT.php:498
+msgid "User Agent Regex"
+msgstr ""
+
+#: includes/CPT.php:514
+msgid "GA Link Tracking (Pro)"
+msgstr ""
+
+#: includes/CPT.php:529
+msgid "LinkGenius Link Locator"
+msgstr ""
+
+#: includes/Importer.php:51
+#: includes/Importer.php:52
+#: includes/Importer.php:121
+#: includes/Importer.php:143
+msgid "Import"
+msgstr ""
+
+#: includes/Importer.php:57
+msgid "Start Import"
+msgstr ""
+
+#: includes/Importer.php:94
+msgid "It looks like the uploaded file could not be parsed or did not contain any links. Please check the file and try again."
+msgstr ""
+
+#: includes/Importer.php:122
+msgid "This will import the LinkGenius Links as listed below. Select import to import or discard to upload a different file and click the Confirm button."
+msgstr ""
+
+#: includes/Importer.php:138
+msgid "Confirm"
+msgstr ""
+
+#: includes/Importer.php:144
+msgid "Import links from a CSV file or an WordPress export XML file."
+msgstr ""
+
+#: includes/Importer.php:150
+msgid "CSV or XML file"
+msgstr ""
+
+#: includes/Importer.php:161
+msgid "Supported fields"
+msgstr ""
+
+#: includes/Importer.php:172
+msgid ""
+"<p>Below you can find what fields are supported by the import. This importer should be used for importing links form thirt-party plugins. With these fields you can directly import export files from most major LinkGenius alternatives. If you are missing field names please create a topic a <a href=\"https://wordpress.org/support/plugin/linkgenius/\">Wordpress.org</a></p>\r\n"
+"                    <p><strong>Mandatory fields:</strong> %1$s<br><strong>Optional fields:</strong> %2$s<br><!--<strong>Pro fields:</strong> %3$s--></p><p>If you want to export and import from the LinkGenius plugin between sites you can use the WordPress default import/export functions under \"Tools > Export\" and \"Tools > Import\" in the admin menu.</p>"
+msgstr ""
+
+#: includes/LinkLocator.php:28
+#: assets/app/src/linkgenius-block.js:70
+#: assets/app/src/linkgenius-link-format.js:19
+#: assets/app/src/linkgenius-link-format.js:76
+#: assets/js/editor/editor.js:2
+msgid "LinkGenius Link"
+msgstr ""
+
+#: includes/LinkLocator.php:33
+msgid "LinkGenius Link Block"
+msgstr ""
+
+#: includes/LinkLocator.php:38
+msgid "Shortcode"
+msgstr ""
+
+#: includes/LinkLocator.php:48
+msgid "Normal Link"
+msgstr ""
+
+#: includes/LinkLocator.php:53
+msgid "URL"
+msgstr ""
+
+#: includes/LinkLocator.php:78
+msgid "No results found"
+msgstr ""
+
+#: includes/LinkLocator.php:82
+msgid "ID"
+msgstr ""
+
+#: includes/LinkLocator.php:82
+#: assets/app/src/linkgenius-taxonomy-selector.js:89
+#: assets/js/editor/editor.js:2
+msgid "Title"
+msgstr ""
+
+#: includes/LinkLocator.php:82
+msgid "Post Type"
+msgstr ""
+
+#: includes/LinkLocator.php:82
+msgid "Link Type"
+msgstr ""
+
+#: includes/Metabox.php:9
+msgid "Reset Clicks"
+msgstr ""
+
+#: includes/Metabox.php:15
+msgid "Search Link in Content"
+msgstr ""
+
+#: includes/Metabox.php:48
+#: includes/Metabox.php:74
+#: includes/Metabox.php:154
+#: includes/Metabox.php:258
+msgid "Default (%s)"
+msgstr ""
+
+#: includes/Metabox.php:48
+#: includes/Metabox.php:49
+#: includes/Metabox.php:154
+#: includes/Metabox.php:155
+#: includes/Metabox.php:345
+msgid "Enabled"
+msgstr ""
+
+#: includes/Metabox.php:48
+#: includes/Metabox.php:50
+#: includes/Metabox.php:154
+#: includes/Metabox.php:156
+msgid "Disabled"
+msgstr ""
+
+#: includes/Metabox.php:68
+msgid "301 Permanent Redirect"
+msgstr ""
+
+#: includes/Metabox.php:69
+msgid "302 Temporary Redirect"
+msgstr ""
+
+#: includes/Metabox.php:70
+msgid "307 Temporary Redirect"
+msgstr ""
+
+#: includes/Metabox.php:76
+msgid "Slug*"
+msgstr ""
+
+#: includes/Metabox.php:82
+msgid "Used for the URL you can link to."
+msgstr ""
+
+#: includes/Metabox.php:85
+msgid "<p>LinkGenius Link URL: <a id=\"linkgenius_url\" href=\"%1$s\" target=\"_blank\">%1$s</a><br><a href=\"#\" id=\"copy_linkgenius_url\">Copy Url</a></p>"
+msgstr ""
+
+#: includes/Metabox.php:91
+msgid "Target URL*"
+msgstr ""
+
+#: includes/Metabox.php:97
+msgid "The target (affiliate) link."
+msgstr ""
+
+#: includes/Metabox.php:100
+#: includes/Metabox.php:382
+#: assets/app/src/linkgenius-taxonomy-selector.js:88
+#: assets/js/editor/editor.js:2
+msgid "Order"
+msgstr ""
+
+#: includes/Metabox.php:109
+msgid "The order for the link, used when displaying all links of a tag or category"
+msgstr ""
+
+#: includes/Metabox.php:115
+msgid "Link Prefix"
+msgstr ""
+
+#: includes/Metabox.php:119
+msgid "The prefix for your link, for example <i>go, recommends, out, link, affiliate</i>. The link will look like <b>%1$sprefix/slug</b>."
+msgstr ""
+
+#: includes/Metabox.php:123
+msgid "Mimimum Role Linkmanagement"
+msgstr ""
+
+#: includes/Metabox.php:126
+msgid "Administrator"
+msgstr ""
+
+#: includes/Metabox.php:127
+msgid "Editor"
+msgstr ""
+
+#: includes/Metabox.php:128
+msgid "Author"
+msgstr ""
+
+#: includes/Metabox.php:129
+msgid "Contributor"
+msgstr ""
+
+#: includes/Metabox.php:130
+msgid "Subscriber"
+msgstr ""
+
+#: includes/Metabox.php:133
+msgid "The minimum role a user needs in order to create, edit or delete LinkGenius Links. The settings page will remain visible for administrators only."
+msgstr ""
+
+#: includes/Metabox.php:137
+msgid "Defaults"
+msgstr ""
+
+#: includes/Metabox.php:139
+msgid "Intro default general setings"
+msgstr ""
+
+#: includes/Metabox.php:144
+msgid "Redirect Type"
+msgstr ""
+
+#: includes/Metabox.php:160
+msgid "No Branding"
+msgstr ""
+
+#: includes/Metabox.php:162
+msgid "When enabled affiliate url of LinkGenius Links will be outputted in content instead of the slug."
+msgstr ""
+
+#: includes/Metabox.php:173
+msgid "Intro text appearance"
+msgstr ""
+
+#: includes/Metabox.php:176
+msgid "Global CSS Classes"
+msgstr ""
+
+#: includes/Metabox.php:176
+msgid "CSS Classes"
+msgstr ""
+
+#: includes/Metabox.php:179
+msgid "Comma separated list of CSS classes"
+msgstr ""
+
+#: includes/Metabox.php:185
+msgid "Open in New Tab"
+msgstr ""
+
+#: includes/Metabox.php:187
+msgid "Open the URL in a new tab when clicked. Done by adding target=\"_blank\" tag."
+msgstr ""
+
+#: includes/Metabox.php:190
+msgid "Parameter Forwarding"
+msgstr ""
+
+#: includes/Metabox.php:194
+msgid "Sponsored Attribute"
+msgstr ""
+
+#: includes/Metabox.php:198
+msgid "Nofollow Attribute"
+msgstr ""
+
+#: includes/Metabox.php:203
+msgid "Global Additional Rel Tags"
+msgstr ""
+
+#: includes/Metabox.php:203
+msgid "Additional Rel Tags"
+msgstr ""
+
+#: includes/Metabox.php:206
+msgid "Comma separated list of additional rel tags"
+msgstr ""
+
+#: includes/Metabox.php:218
+msgid "Default Link appearance"
+msgstr ""
+
+#: includes/Metabox.php:219
+#: includes/Metabox.php:249
+msgid "Default settings, can be overriden per individual link."
+msgstr ""
+
+#: includes/Metabox.php:233
+msgid "None"
+msgstr ""
+
+#: includes/Metabox.php:234
+msgid "Tooltip"
+msgstr ""
+
+#: includes/Metabox.php:235
+#: includes/Metabox.php:275
+#: includes/Metabox.php:317
+msgid "Text After Link"
+msgstr ""
+
+#: includes/Metabox.php:236
+msgid "Content Statement"
+msgstr ""
+
+#: includes/Metabox.php:241
+msgid "Intro text disclosure"
+msgstr ""
+
+#: includes/Metabox.php:248
+msgid "Default disclosure settings"
+msgstr ""
+
+#: includes/Metabox.php:254
+msgid "Disclosure Type"
+msgstr ""
+
+#: includes/Metabox.php:268
+msgid "Disclosure Tooltip"
+msgstr ""
+
+#: includes/Metabox.php:271
+msgid "default_tooltip_desc"
+msgstr ""
+
+#: includes/Metabox.php:278
+msgid "default_after_link_text_desc"
+msgstr ""
+
+#: includes/Metabox.php:284
+msgid "Content disclosure settings"
+msgstr ""
+
+#: includes/Metabox.php:287
+msgid "Content Disclosure Location"
+msgstr ""
+
+#: includes/Metabox.php:291
+msgid "End of Post"
+msgstr ""
+
+#: includes/Metabox.php:292
+msgid "Beginning of Post"
+msgstr ""
+
+#: includes/Metabox.php:293
+msgid "Custom (Via Shortcode or Action)"
+msgstr ""
+
+#: includes/Metabox.php:298
+msgid "Content Disclosure Text"
+msgstr ""
+
+#: includes/Metabox.php:307
+msgid "Disclosure Text"
+msgstr ""
+
+#: includes/Metabox.php:311
+#: includes/Metabox.php:322
+msgid "Default: %s"
+msgstr ""
+
+#: includes/Metabox.php:320
+msgid "after_link_text_desc"
+msgstr ""
+
+#: includes/Metabox.php:340
+msgid "Intro text GA tracking"
+msgstr ""
+
+#: includes/Metabox.php:349
+msgid "Event Name"
+msgstr ""
+
+#: includes/Metabox.php:357
+msgid "Event Parameters"
+msgstr ""
+
+#: includes/Metabox.php:361
+msgid "Default:&#10;%s"
+msgstr ""
+
+#: includes/Metabox.php:363
+msgid "You can use the variables %s"
+msgstr ""
+
+#: includes/Metabox.php:379
+msgid "Intro text autolink"
+msgstr ""
+
+#: includes/Metabox.php:391
+msgid "A lower order means earlier execution when dealing with conflicting keywords or urls"
+msgstr ""
+
+#: includes/Metabox.php:394
+msgid "Keywords"
+msgstr ""
+
+#: includes/Metabox.php:397
+msgid "Enter keywords that will automatically create a link to this LinkGenius link if they occur in the page or post content. One keyword per line, case-insensitive."
+msgstr ""
+
+#: includes/Metabox.php:400
+msgid "URLs"
+msgstr ""
+
+#: includes/Metabox.php:403
+msgid "Enter URLs that will automatically be replaced with this LinkGenius link. One url per line."
+msgstr ""
+
+#: includes/Metabox.php:414
+msgid "Intro link locator"
+msgstr ""
+
+#: includes/Metabox.php:436
+msgid "Intro text expiration"
+msgstr ""
+
+#: includes/Metabox.php:439
+msgid "Expiration Date"
+msgstr ""
+
+#: includes/Metabox.php:442
+msgid "Date after which link expires. (optional)"
+msgstr ""
+
+#: includes/Metabox.php:445
+msgid "Expiration Clicks"
+msgstr ""
+
+#: includes/Metabox.php:454
+msgid "Number of clicks after which the link expires. (optional)"
+msgstr ""
+
+#: includes/Metabox.php:457
+msgid "Current Clicks"
+msgstr ""
+
+#: includes/Metabox.php:463
+msgid "Redirect After Expiry"
+msgstr ""
+
+#: includes/Metabox.php:466
+msgid "The url to redirect to after link expired (used only if date or clicks are set)."
+msgstr ""
+
+#: includes/Metabox.php:481
+msgid "Intro text custom fields"
+msgstr ""
+
+#: includes/Settings.php:64
+#: includes/Settings.php:65
+msgid "Settings"
+msgstr ""
+
+#: includes/Settings.php:69
+msgid "General"
+msgstr ""
+
+#: includes/Settings.php:84
+#: includes/Settings.php:90
+msgid "Appearance"
+msgstr ""
+
+#: includes/Settings.php:106
+#: includes/Settings.php:112
+msgid "Disclosure"
+msgstr ""
+
+#: includes/Settings.php:203
+msgid "Affiliate Link"
+msgstr ""
+
+#: includes/Settings.php:204
+msgid " (Affiliate Link)"
+msgstr ""
+
+#: includes/Settings.php:206
+msgid "default_content_disclosure_text"
+msgstr ""
+
+#: includes/Shortcode.php:62
+msgid "You must specify a category or tag"
+msgstr ""
+
+#: assets/app/src/linkgenius-block.js:51
+#: assets/js/editor/editor.js:2
+msgid "No LinkGenius Link Selected"
+msgstr ""
+
+#: assets/app/src/linkgenius-block.js:63
+#: assets/js/editor/editor.js:2
+msgid "Edit LinkGenius Link"
+msgstr ""
+
+#: assets/app/src/linkgenius-block.js:63
+#: assets/js/editor/editor.js:2
+msgid "Preview LinkGenius Link"
+msgstr ""
+
+#: assets/app/src/linkgenius-block.js:71
+#: assets/js/editor/editor.js:2
+msgid "Text"
+msgstr ""
+
+#: assets/app/src/linkgenius-block.js:75
+#: assets/js/editor/editor.js:2
+msgid "Link"
+msgstr ""
+
+#: assets/app/src/linkgenius-block.js:207
+#: assets/js/editor/editor.js:2
+msgid "LinkGenius Link Loop"
+msgstr ""
+
+#: assets/app/src/linkgenius-block.js:208
+#: assets/js/editor/editor.js:2
+msgid "The blocks within the LinkGenius Link Loop are repeated for each link. You can use the following placeholders to ouput data: %s "
+msgstr ""
+
+#: assets/app/src/linkgenius-link-format.js:64
+#: assets/js/editor/editor.js:2
+msgid "Remove LinkGenius Link"
+msgstr ""
+
+#: assets/app/src/linkgenius-link-selector.js:88
+#: assets/js/editor/editor.js:2
+msgid "No link selected"
+msgstr ""
+
+#: assets/app/src/linkgenius-link-selector.js:90
+#: assets/js/editor/editor.js:2
+msgid "Edit"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:64
+#: assets/js/editor/editor.js:2
+msgid "Edit LinkGenius List"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:64
+#: assets/js/editor/editor.js:2
+msgid "Preview LinkGenius List"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:76
+#: assets/js/editor/editor.js:2
+msgid "LinkGenius Category List"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:76
+#: assets/js/editor/editor.js:2
+msgid "LinkGenius Tag List"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:78
+#: assets/js/editor/editor.js:2
+msgid "Category"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:78
+#: assets/js/editor/editor.js:2
+msgid "Tag"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:86
+#: assets/js/editor/editor.js:2
+msgid "Sort By"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:93
+#: assets/js/editor/editor.js:2
+msgid "Template"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:94
+#: assets/js/editor/editor.js:2
+msgid "Manual template allows you to write own html or specify a separator. Blocks template allow you to specify repeated blocks through the LinkGenius Link Loop."
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:98
+#: assets/js/editor/editor.js:2
+msgid "Manual"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:99
+#: assets/js/editor/editor.js:2
+msgid "Blocks"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:105
+#: assets/js/editor/editor.js:2
+msgid "Template or separator"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:106
+#: assets/js/editor/editor.js:2
+msgid "If {links}{link}{/links} is not found value is treated as separator. For example, Set to \", \" to make links comma separated"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:149
+#: assets/js/editor/editor.js:2
+msgid "No LinkGenius %s specified"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:172
+#: assets/js/editor/editor.js:2
+msgid "No LinkGenius links found"
+msgstr ""
+
+#: assets/app/src/linkgenius-taxonomy-selector.js:174
+#: assets/js/editor/editor.js:2
+msgid "Error fetching preview"
+msgstr ""

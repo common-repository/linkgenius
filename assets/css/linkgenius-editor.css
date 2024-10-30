@@ -1,0 +1,93 @@
+.linkgenius-link {
+    text-decoration: underline;
+    color:blueviolet;
+}
+
+.linkgenius-error {
+    color: #F44177;
+}
+
+.linkgenius-preview {
+    align-items: center;
+}
+
+.linkgenius-list-sort {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.linkgenius-template-desc {
+    font-size: x-small;
+}
+
+.linkgenius-link-wrapper-hidden {
+    display: none;
+}
+
+.linkgenius-link-wrapper,
+.linkgenius-taxonomy-selector
+{
+    border-left: 3px solid blueviolet;
+    padding: 1em;
+}
+
+.editor-styles-wrapper .linkgenius-link-wrapper h2,
+.editor-styles-wrapper .linkgenius-taxonomy-selector h2 {
+    font-size: 1.5em;
+}
+
+.linkgenius-link-wrapper > div:not(:last-child),
+.linkgenius-taxonomy-selector  > div:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.linkgenius-link-selector .components-popover__content {
+    width: 26em;
+}
+
+.linkgenius-link-selector .link-input {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkgenius-link-selector .search-spinner {
+    position: absolute;
+    right: 45px;
+    top: 5px;
+}
+
+.linkgenius-link-selector .link-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkgenius-link-selector .link-list button > div {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+
+.linkgenius-link-selector .link-url,
+.linkgenius-link-selector .link-target {
+        color: #757575;
+        font-size: 12px;
+        margin-top: 4px;
+        white-space: normal;
+}
+
+.linkgenius-link-selector mark {
+    background-color: initial;
+    color: inherit;
+    font-weight: 600;
+}
+.linkgenius-taxonomy-selector .help {
+    fill: blueviolet
+}
+
+.components-tooltip {
+    max-width: 90vw;
+}

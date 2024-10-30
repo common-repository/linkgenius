@@ -1,0 +1,46 @@
+.linkgenius-pro > div > :not(:first-child) {
+    pointer-events:none;
+    opacity: 0.6;
+}
+
+.cmb2_h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+input.linkgenius-copy-shortcode {
+    background-color: #ADFFAD;
+}
+
+.broken-status {
+    color: #b32d2e;
+}
+
+.changed-status {
+    color: #d35400;
+}
+
+.healthy-status {
+    color: #27ae60;
+
+
+}
+
+a .lg.dashicons {
+    text-decoration: none;
+    color: #8c8f94;
+}
+
+.misc-pub-link-status:before {
+    content: "\f225";
+    font: normal 20px/1 dashicons;
+    speak: never;
+    display: inline-block;
+    margin-left: -1px;
+    padding-right: 3px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #8c8f94;
+}
+
